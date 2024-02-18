@@ -1,4 +1,4 @@
 baseURL = 'https://spenalozacortes.github.io/'
 languageCode = 'es-mx'
 title = 'Probando, probando'
-theme = 'ananke'
+theme = 'nostyleplease'
