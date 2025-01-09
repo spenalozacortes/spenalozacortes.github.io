@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/hola-mundo/</loc>
+    <loc>https://spenalozacortes.github.io/posts/</loc>
+    <lastmod>2024-08-18T13:34:54+02:00</lastmod>
+  </url><url>
+    <loc>https://spenalozacortes.github.io/posts/hola-mundo/</loc>
     <lastmod>2024-03-07T16:27:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-03-07T16:27:59-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://spenalozacortes.github.io/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://spenalozacortes.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://spenalozacortes.github.io/tags/</loc>
   </url>
 </urlset>
