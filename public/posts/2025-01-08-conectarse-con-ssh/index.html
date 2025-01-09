@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-mx"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Hace algunos días desarrollando unos tests, leí en los requerimientos que tenía que tomar en cuenta unas palabras en la lista negra. No sabía cuáles eran esas palabras, así que me puse a buscarlas (siempre busco antes de preguntar). Creí encontrarlas dando clicks en los menús en uno de los ambientes de pruebas.
+Probé algunas palabras y funcionaban para lo que necesitaba. En mi test puse una de las palabras en codificación rígida (hard coded), pero luego pensé que sería bueno tener todas las palabras en otro archivo y elegir una al azar cada que se ejecutara el test.">  
+
+  <title>
+    
+      Conectarse al host con SSH
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.18e297f9c7b534b566a0a070712181cc69b4f1155e1b8d1fe541304605c4f6ab7d7460a557a004bf67fd09787aef348cf619f6dd8d310362898a41b1465ddd4d.css" integrity="sha512-GOKX&#43;ce1NLVmoKBwcSGBzGm08RVeG40f5UEwRgXE9qt9dGClV6AEv2f9CXh67zSM9hn23Y0xA2KJikGxRl3dTQ==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                <div class="post-meta">
+                    <a href="/">..</a>
+
+                    <p>
+                        <time datetime="2025-01-08 20:11:13 -0600 CST">
+                            2025-01-08
+                        </time>
+                    </p>
+                </div>
+
+<article>
+    <h1>Conectarse al host con SSH</h1>
+
+    
+
+    <p>Hace algunos días desarrollando unos tests, leí en los requerimientos que tenía que tomar en cuenta unas palabras en la lista negra. No sabía cuáles eran esas palabras, así que me puse a buscarlas (siempre busco antes de preguntar). Creí encontrarlas dando clicks en los menús en uno de los ambientes de pruebas.</p>
+<p>Probé algunas palabras y funcionaban para lo que necesitaba. En mi test puse una de las palabras en codificación rígida (<em>hard coded</em>), pero luego pensé que sería bueno tener todas las palabras en otro archivo y elegir una al azar cada que se ejecutara el test.</p>
+<p>Como se trataba de un ambiente de pruebas, pensé que tal vez no estaría actualizado, así que le pedí a mi Product Owner una lista de las palabras en lista negra. Me dijo que podía obtenerla del ambiente de desarrollo (justo en la página donde yo ya la había encontrado), pero que en ese momento había un bug que impedía obtenerla.</p>
+<p>Como hace poco tiempo obtuve acceso al repositorio de la aplicación, pensé que tal vez podía encontrar la lista verdadera en medio de la gigantesca base de código escrita en PHP. Estuve buscando y al fin encontré unas líneas donde se mencionaba una tabla que parecía contener mi tan anhelada lista de palabras.</p>
+<p>El problema ahora era que no sabía entrar a la base de datos.</p>
+<p>Finalmente se arregló el bug, pude obtener la lista de palabras usando la interfaz de usuario y la agregué a mi test para elegir una palabra al azar a la vez.</p>
+<p>Pero me quedó esa duda sobre la base de datos.</p>
+<p>Olvidé un poco todo esto y seguí con mi vida, pero los últimos días desarrollando otros tests me encontré con una situación similar. Haciendo una petición a la API tengo que enviar ciertos IDs que están relacionados con ciertos nombres. Mi petición es exitosa con uno de los IDs, pero al enviar los ~50 IDs que necesito para mi test, la petición falla.</p>
+<p>La lista de los IDs con los nombres la escribió en un JSON otra de las ingenieras QA. Pude haberle preguntado que si la lista era correcta, pero tal vez ella no tenía más información que yo y no quería molestarla. Tampoco sabía qué desarrollador era el encargado de esto. Mi Product Owner sabe mucho, pero no se mete en cosas más técnicas.</p>
+<p>Pude haberle dado click en la interfaz de usuario a cada uno de los nombres, revisar la petición con Chrome DevTools y ver qué ID se enviaba, pero eso me pareció demasiado trabajo. Dicen que los buenos programadores somos unos flojonazos y siempre buscamos la solución más rápida y sencilla?</p>
+<p>En nuestra Retrospective de fin de año me quejé un poco porque nadie me ha guíado verdaderamente en este proyecto. Todo lo he tenido que descubrir prácticamente sola. Dije que hay muchas cosas técnicas que aún no entiendo y que ni siquiera sé qué es lo que no sé. Afortunadamente uno de los desarrolladores en mi equipo se ofreció a explicarme esos detalles que no conozco o que no me quedan claros.</p>
+<p>Hasta ahora no había aprovechado esa oportunidad porque no había surgido la oportunidad</p>
+
+</article>
+
+            </div>
+        </main>
+    </body></html>
