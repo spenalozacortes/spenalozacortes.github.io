@@ -4,7 +4,7 @@
     {{ else }}
         {{ warnf "layouts/footer.md file is not found, fallback to the default copyright" }}
         <footer class="site-footer">
-            <p>&copy; {{ now.Format "2006" }} {{ site.Title }}</p>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://spenalozacortes.github.io/">Esta obra</a> de <span property="cc:attributionName">Stephanie Peñaloza</span> está bajo una licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Atribución/Reconocimiento-CompartirIgual 4.0 Internacional</a></p>
         </footer>
     {{ end }}
 {{ end }}

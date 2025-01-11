@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Probando, probando</title>
+    <title>Me gustan las computadoras</title>
     <link>https://spenalozacortes.github.io/</link>
-    <description>Recent content on Probando, probando</description>
+    <description>Recent content on Me gustan las computadoras</description>
     <generator>Hugo</generator>
     <language>es-mx</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spenalozacortes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hola Mundo</title>
+      <link>https://spenalozacortes.github.io/posts/2025-01-08-hola-mundo/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://spenalozacortes.github.io/posts/2025-01-08-hola-mundo/</guid>
+      <description>&lt;p&gt;¡Hola mundo!&lt;/p&gt;&#xA;&lt;p&gt;Aquí voy a escribir mi historia&amp;hellip;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 +++
 title = 'Hola Mundo'
-date = 2025-10-08
+date = 2025-01-08
 draft = false
 +++
 
