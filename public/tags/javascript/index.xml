@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Scriptorium</title>
-    <link>https://spenalozacortes.github.io/posts/</link>
-    <description>Recent content in Posts on Scriptorium</description>
+    <title>Javascript on Scriptorium</title>
+    <link>https://spenalozacortes.github.io/tags/javascript/</link>
+    <description>Recent content in Javascript on Scriptorium</description>
     <generator>Hugo</generator>
     <language>es-mx</language>
     <lastBuildDate>Wed, 20 Aug 2025 16:46:49 -0600</lastBuildDate>
-    <atom:link href="https://spenalozacortes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spenalozacortes.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tener autocompletado en VSCode para WebdriverIO con JavaScript</title>
       <link>https://spenalozacortes.github.io/posts/2025-08-20-webdriverio-autocompletado/</link>
       <pubDate>Wed, 20 Aug 2025 16:46:49 -0600</pubDate>
       <guid>https://spenalozacortes.github.io/posts/2025-08-20-webdriverio-autocompletado/</guid>
       <description>&lt;p&gt;Dos opciones:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Importar los métodos y objetos globales de WebdriverIO en cada archivo de pruebas:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;expect&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;browser&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt; } &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@wdio/globals&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Crear un archivo &lt;code&gt;jsconfig.json&lt;/code&gt; en la raíz del proyecto y hacer referencia a los paquetes wdio utilizados:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;compilerOptions&amp;#34;&lt;/span&gt;: {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;types&amp;#34;&lt;/span&gt;: [&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;node&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@wdio/globals/types&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@wdio/mocha-framework&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Hola Mundo</title>
-      <link>https://spenalozacortes.github.io/posts/2025-01-08-hola-mundo/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://spenalozacortes.github.io/posts/2025-01-08-hola-mundo/</guid>
-      <description>&lt;p&gt;¡Hola mundo!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
