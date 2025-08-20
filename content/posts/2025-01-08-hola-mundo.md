@@ -5,5 +5,3 @@ draft = false
 +++
 
 ¡Hola mundo!
-
-Aquí voy a escribir mi historia...

@@ -3,4 +3,4 @@ title =  ""
 date = 2022-08-25T21:30:04+08:00
 draft = false
 +++
-Compartiendo lo que aprendo
+Compartiendo lo que aprendo para que no se me olvide
