@@ -1,7 +1,7 @@
 +++
 title = 'Tener autocompletado en VSCode para WebdriverIO con JavaScript'
 date = 2025-08-20T16:46:49-06:00
-tags = ['webdriverio', 'javascript']
+tags = ['webdriverio', 'javascript', 'vscode']
 draft = false
 +++
 

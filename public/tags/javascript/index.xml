@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Scriptorium</title>
-    <link>https://spenalozacortes.github.io/tags/javascript/</link>
+    <link>http://localhost:1313/tags/javascript/</link>
     <description>Recent content in Javascript on Scriptorium</description>
     <generator>Hugo</generator>
     <language>es-mx</language>
-    <lastBuildDate>Wed, 20 Aug 2025 16:46:49 -0600</lastBuildDate>
-    <atom:link href="https://spenalozacortes.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Aug 2025 08:42:54 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacer debugging con WebdriverIO y VSCode</title>
+      <link>http://localhost:1313/posts/2025-08-22-webdriverio-debugging/</link>
+      <pubDate>Fri, 22 Aug 2025 08:42:54 -0600</pubDate>
+      <guid>http://localhost:1313/posts/2025-08-22-webdriverio-debugging/</guid>
+      <description>&lt;p&gt;Mi método:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;En VSCode, presionar CTRL + Shift + P. Buscar y seleccionar la opción &lt;code&gt;Debug: Toggle Auto Attach&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Elegir la opción &lt;code&gt;Always&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;(No es necesario, pero lo recomiendo para que no se acabe el tiempo del test antes de terminar nuestro debugging) En el archivo de configuración de WebdriverIO, &lt;code&gt;wdio.conf.js&lt;/code&gt;, crear esta variable:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;debug&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;process&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;env&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DEBUG&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Tener autocompletado en VSCode para WebdriverIO con JavaScript</title>
-      <link>https://spenalozacortes.github.io/posts/2025-08-20-webdriverio-autocompletado/</link>
+      <link>http://localhost:1313/posts/2025-08-20-webdriverio-autocompletado/</link>
       <pubDate>Wed, 20 Aug 2025 16:46:49 -0600</pubDate>
-      <guid>https://spenalozacortes.github.io/posts/2025-08-20-webdriverio-autocompletado/</guid>
+      <guid>http://localhost:1313/posts/2025-08-20-webdriverio-autocompletado/</guid>
       <description>&lt;p&gt;Dos opciones:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Importar los métodos y objetos globales de WebdriverIO en cada archivo de pruebas:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;expect&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;browser&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt; } &lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;@wdio/globals&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Crear un archivo &lt;code&gt;jsconfig.json&lt;/code&gt; en la raíz del proyecto y hacer referencia a los paquetes wdio utilizados:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;compilerOptions&amp;#34;&lt;/span&gt;: {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;types&amp;#34;&lt;/span&gt;: [&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;node&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@wdio/globals/types&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;@wdio/mocha-framework&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
